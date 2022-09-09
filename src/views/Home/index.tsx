@@ -1,4 +1,5 @@
 import { Introduction } from '~/components/HomeComponent';
+import { MarqueeSlide } from '~/components/Slider/MarqueSlide';
 import './index.scss';
 const Home = () => {
   return (
@@ -61,7 +62,9 @@ const Home = () => {
         </div>
         {/* <CoverCard /> */}
       </div>
-      <div className='row d-flex justify-content-center mh-100'>{/* <MarqueeSlide /> */}</div>
+      <div className='row d-flex justify-content-center mh-100'>
+        <MarqueeSlide />
+      </div>
       {/* <CitiesSlider /> */}
     </div>
   );
